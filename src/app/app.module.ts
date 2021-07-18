@@ -11,6 +11,12 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { Dashboard2Component } from './components/dashboard2/dashboard2.component';
+import { FixedlayoutComponent } from './components/fixedlayout/fixedlayout.component';
+import { SampledataComponent } from './components/sampledata/sampledata.component';
+import { DatatableComponent } from './components/datatable/datatable.component';
+import { ModalsComponent } from './components/modals/modals.component';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { ProfileComponent } from './components/profile/profile.component';
     DashboardComponent,
     LoginComponent,
     RegisterComponent,
-    ProfileComponent
+    ProfileComponent,
+    Dashboard2Component,
+    FixedlayoutComponent,
+    SampledataComponent,
+    DatatableComponent,
+    ModalsComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
