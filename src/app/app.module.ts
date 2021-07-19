@@ -17,6 +17,7 @@ import { SampledataComponent } from './components/sampledata/sampledata.componen
 import { DatatableComponent } from './components/datatable/datatable.component';
 import { ModalsComponent } from './components/modals/modals.component';
 import { FormComponent } from './components/form/form.component';
+import { GeneralFormComponent } from './components/general-form/general-form.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormComponent } from './components/form/form.component';
     SampledataComponent,
     DatatableComponent,
     ModalsComponent,
-    FormComponent
+    FormComponent,
+    GeneralFormComponent
   ],
   imports: [
     BrowserModule,

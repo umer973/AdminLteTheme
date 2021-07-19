@@ -6,6 +6,7 @@ import { Dashboard2Component } from './components/dashboard2/dashboard2.componen
 import { DatatableComponent } from './components/datatable/datatable.component';
 import { FixedlayoutComponent } from './components/fixedlayout/fixedlayout.component';
 import { FormComponent } from './components/form/form.component';
+import { GeneralFormComponent } from './components/general-form/general-form.component';
 import { LoginComponent } from './components/login/login.component';
 import { ModalsComponent } from './components/modals/modals.component';
 import { ProfileComponent } from './components/profile/profile.component';
@@ -18,13 +19,14 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'dashboard', component: DashboardComponent },
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'dashboard2', component: Dashboard2Component },
   { path: 'fixedlayout', component: FixedlayoutComponent },
   { path: 'sampledata', component: SampledataComponent },
   { path: 'datatable', component: DatatableComponent },
   { path: 'modals', component: ModalsComponent },
   { path: 'forms', component: FormComponent },
+  { path: 'generalforms', component: GeneralFormComponent },
 
 ];
 
